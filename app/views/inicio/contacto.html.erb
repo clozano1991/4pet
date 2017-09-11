@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<!-- esto es la barra de navegacion-->
+
+<div class="bs-docs-section clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="bs-component">
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <!-- esto es la barra de navegacion-->
+                    <div class="navbar-brand" ><%=image_tag("logoChiquitin.png")%></div>
+                   
+                  </div>
+
+
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><%= link_to("Inicio", pagInicio_path)%></li>
+                      <li><%= link_to("Nosotros", nosotros_path)%></li>
+                      <li><%= link_to("Fundaciones", fundaciones_path)%></li>
+                      <li><%= link_to("Contactanos", contacto_path)%></li>
+                      <li><%= link_to("Login", login_path)%> </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- estos son los bloques de contacto-->
+
+<div class="contacto">
+  <h2 class="tituloDistribuidor">Contacto Distribuidores</h3>
+  <h2 class="tituloUsuario">Contacto Usuarios</h3>
+
+    <div class="bloquesContacto">
+          <div class="col-lg-4">            
+              <div class="well well-lg contacto izq">
+                 <p class="letraContacto">Si eres un distribuidor, veterinario, o realizas un servicio para mascotas y quieres ser parte de la comunidad 4PET, envianos un mail a:</p>
+                 <p class="letraContacto"><strong>4petappp@gmail.com</strong></p>
+              </div>            
+          </div>
+
+          <div class="col-lg-4">           
+              <div class="well well-lg contacto der">
+                <p class="letraContacto">Si tienes dudas con un pedido o el uso de la aplicacion, mandanos tu consulta a:</p>
+                <p class="letraContacto"><strong>4pethelp@gmail.com</strong></p>
+                <p class="letraContacto ">O puedes hacerlo directamente a travez de la aplicacion en la seccion de ayuda</p>
+              </div>           
+          </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

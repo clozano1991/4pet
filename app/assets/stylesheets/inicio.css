@@ -1,0 +1,106 @@
+
+/*esto el la pagina de inicio--------------------------------------------------------*/
+
+.fotoUsoYTexto{
+	margin-left: 25vw;
+	margin-bottom: 5vw;
+	position: absolute;
+}
+.imagenTelefono{
+	height: 26vw;
+	width: auto;
+	position: absolute;
+	left: 1vw;
+}
+.textoImagenTelefono{
+	margin-left: 20vw;
+	margin-top: 0vw;
+}
+.propiedadesTexto{
+	font-size: 2vw;
+	margin-top: 3vw;
+}
+.espacio{
+	margin-top: 30vw;
+}
+.textoWell{
+	text-align: center;
+}
+.footer{
+	margin-left: 30vw;
+}
+
+/*esto el la pagina de nosotros--------------------------------------------------------*/
+
+.bloques{
+	position: relative;
+	width: 110vw;
+	height: 100vw;
+}
+.bloqueUno{
+	position: absolute;
+	top:8vw;
+	left: 10vw;
+	width: 110vw;
+}
+.bloqueDos{
+    position: absolute;
+    top:25vw;
+    left: 53vw;
+    width: 110vw;
+}
+.bloqueTres{
+	position: absolute;
+	width: 100vw;
+	top: 40vw;
+	left: 10vw;
+	width: 110vw;
+}
+
+
+/*esto el la pagina de fundaciones--------------------------------------------------------*/
+
+
+
+/*esto el la pagina de contacto--------------------------------------------------------*/
+.contacto{
+	position: absolute;
+	height: 20vw;
+	width: 50vw;
+	margin-top: 2.5vw;
+	
+}
+.tituloUsuario{
+	position: relative;
+	display: inline-block;
+	left: 58vw;
+	
+}
+.tituloDistribuidor{
+	position: absolute;
+	display: inline-block;
+	left: 19vw;	
+}
+.bloquesContacto{
+	position: absolute;
+	height: 20vw;
+	width: 100vw;
+	top: 3vw;	
+}
+.well.well-lg.contacto.izq{
+	width: 35vw;
+	margin-left: 12vw;
+}
+.well.well-lg.contacto.der{
+	width: 35vw;
+	margin-left: 17vw;
+}
+.letraContacto{
+	font-size: 1.6vw;
+}
+
+/*esto es el codigo de bootstrap--------------------------------------------------------*/
+
+
+@import "bootstrap.css"
+

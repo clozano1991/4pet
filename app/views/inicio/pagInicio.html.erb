@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+
+<!-- esto es la barra de navegacion-->
+<div class="bs-docs-section clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="bs-component">
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <!-- esto es la barra de navegacion-->
+                    <div class="navbar-brand" ><%=image_tag("logoChiquitin.png")%></div>
+                    </div>
+
+
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                   
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><%= link_to("Inicio", pagInicio_path)%></li>
+                      <li><%= link_to("Nosotros", nosotros_path)%></li>
+                      <li><%= link_to("Fundaciones", fundaciones_path)%></li>
+                      <li><%= link_to("Contactanos", contacto_path)%></li>
+                      <li><%= link_to("Login", login_path)%> </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+</div>
+
+<!-- Es la parte de abajo de la barra de navegacion-->
+<div class="row">
+          <div class="col-lg-12">
+           
+            <div class="bs-component">
+              <div class="jumbotron">
+                <h1>Bienvenidos a la comunidad 4PET</h1>
+                <p>Todo lo que tu mascota necesita en una sola aplicacion.</p>
+                
+              </div>
+            </div>
+          </div>
+</div>
+
+
+<div class="fotoUsoYTexto">
+      <%=image_tag("seleccion.png", class: "imagenTelefono")%>
+      <div class= "textoImagenTelefono">
+              <p class="propiedadesTexto"><strong>1) Descarga 4PET</strong>.</p>
+              <p class="propiedadesTexto"><strong>2) Elige tu Producto</strong>.</p>
+              <p class="propiedadesTexto"><strong>3) Selecciona a tu distribuidor</strong>.</p>
+              <p class="propiedadesTexto"><strong>4) Recíbelo en tu casa</strong>.</p>
+      </div>      
+</div>
+
+
+<!-- Este es el espacio para que la posicion relative de lo de arriba no quede ensima de lo que viene despues-->
+
+<div class="espacio">
+</div>
+
+
+<!-- estas son las 3 cosas de abajo-->
+
+
+          <div class="col-lg-4">
+              <div class="well">
+                <h3 class="textoWell">Ahorra Tiempo</h3>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="well">
+                <h3 class="textoWell">Ahorra Esfuerzo</h3>
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="well">
+                <h3 class="textoWell">Ahorra Dinero</h3>
+              </div>
+          </div>
+
+
+
+<!-- Este es el footer-->
+
+ <div class="footer">
+   <h5><strong>aca van los logos de facebook, instagram y todo eso con sus links</strong></h5>
+ </div>
+
+
+
+</body>
+</html>

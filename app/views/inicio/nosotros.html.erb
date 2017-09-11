@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<!-- esto es la barra de navegacion-->
+
+<div class="bs-docs-section clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="bs-component">
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <!-- esto es la barra de navegacion-->
+                    <div class="navbar-brand" ><%=image_tag("logoChiquitin.png")%></div>
+                   
+                  </div>
+
+
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><%= link_to("Inicio", pagInicio_path)%></li>
+                      <li><%= link_to("Nosotros", nosotros_path)%></li>
+                      <li><%= link_to("Fundaciones", fundaciones_path)%></li>
+                      <li><%= link_to("Contactanos", contacto_path)%></li>
+                      <li><%= link_to("Login", login_path)%> </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Es la parte de abajo de la barra de navegacion-->
+<div class="Bloques">
+   <div class="bloqueUno">
+        <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h2 class="panel-title"><strong>Nuestros Inicios</strong></h2>
+                </div>
+                <div class="panel-body">
+                 <h4>
+                     Todo comenzo a principios del 2017 con un proyecto universitario y un grupo de estudiantes que soñaron en hacer una diferencia.
+                 </h4>
+                 <h4>
+                     Con recursos limitados y un espiritu colaborador la comunidad <strong>4PET</strong> poco a poco se esta formando, siempre manteniendo nuestra motivacion inicial, ser una empresa responsable que logre ser util a la gente y sobre todo que permita terminar con la situacion de calle de cientos de mascotas. 
+                 </h4>
+                  
+                </div>
+              </div>
+             </div>
+        </div>
+   </div>
+   <div class="bloqueDos">
+        <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h2 class="panel-title"><strong>Quienes Somos</strong></h2>
+                </div>
+                <div class="panel-body">
+                   <h4>
+                       Hoy en dia nos alegra no ser solo esos estudiantes con un sueño, sino tambien un basto numero de usuarios, distribuidores, veterinarios y fundaciones, que mantienen viva la comunidad <strong>4PET </strong>.
+                   </h4>
+                   <h4>
+                       Sobre todo, estamos orgullosos de poder decir juntos, que estamos cerca de hacer una gran diferencia para los animales sin hogar.
+                   </h4>
+                </div>
+              </div>
+             </div>
+        </div>
+   </div>
+   <div class="bloqueTres">
+        <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-warning">
+                   <div class="panel-heading">
+                     <h2 class="panel-title"><strong>A que Aspiramos</strong></h2>
+                    </div>
+                <div class="panel-body">
+                  <h4>
+                       A romper el paradigma y mostrar que una empresa puede y debe ser una fuerza positiva que cambie el mundo.
+                   </h4>
+                   <h4>
+                       A colaborar en la llegada del dia en que no existan mas mascotas en situacion de calle. 
+                   </h4>
+                   <h4>
+                       A ser una ayuda de todo aquel que tenga una mascota. 
+                   </h4>
+                </div>
+              </div>
+             </div>
+        </div>
+   </div>
+</div>
+
+
+
+
+</body>
+</html>
